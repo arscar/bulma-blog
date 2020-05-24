@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/debuger.css"> -->
+</head>
+
+<body class="has-background-light">
+    <!--Header-->
+    <header>
+        <!--Main navbar-->
+        <div class="container">
+            <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item">
+                        <h3 class="container title has-text-white">
+                            Unknown Site Name
+                        </h3>
+                    </a>
+                </div>
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item">Item 1</a>
+                        <a class="navbar-item">Item 3</a>
+                        <a class="navbar-item">Item 5</a>
+                        <a class="navbar-item">Item 6</a>
+                    </div>
+                    <div class="navbar-end">
+                        <a class="navbar-item">
+                            <span class="icon">
+                                    <i class="fab fa-twitter"></i>
+                                  </span>
+                        </a>
+                        <a class="navbar-item">
+                            <span class="icon">
+                                    <i class="fab fa-facebook"></i>
+                                  </span>
+                        </a>
+                        <a class="navbar-item">
+                            <span class="icon">
+                                    <i class="fab fa-youtube"></i>
+                                  </span>
+                        </a>
+                        <a class="navbar-item">
+                            <span class="icon">
+                                    <i class="fab fa-instagram"></i>
+                                  </span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--Hero-->
+        <div class="container">
+            <div class="hero is-info">
+                <div class="hero-body">
+                    <h1 class="title has-text-centered">
+                        Hero title
+                    </h1>
+                    <h2 class="subtitle has-text-centered">
+                        Hero subtitle
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--Category navbar-->
+        <div class="container">
+            <nav class="navbar is-info">
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item">Category 1</a>
+                        <a class="navbar-item">Category 3</a>
+                        <a class="navbar-item">Category 5</a>
+                        <a class="navbar-item">Category 6</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--Container for main content and aside-->
+    <div class="container">
+        <div class="columns is-spacer-top-2">
+            <!--aside for sidebar-->
+            <aside class="column is-3">
+                <div class="tile is-ancestor">
+                    <div class="tile is-vertical is-parent">
+                        <div class="tile is-child box">
+                            <p class="menu-label has-text-info">
+                                Menu
+                            </p>
+                            <ul class="menu-list">
+                                <li><a>Menu item 1</a></li>
+                                <li><a>Menu item 2</a></li>
+                                <li><a>Menu item 3</a></li>
+                                <li><a>Menu item 4</a></li>
+                            </ul>
+                            <p class="menu-label has-text-info">
+                                Recent post
+                            </p>
+                            <ul class="menu-list">
+                                <li><a>Post Title 1</a></li>
+                                <li><a>Post Title 2</a></li>
+                                <li><a>Post Title 3</a></li>
+                                <li><a>Post Title 4</a></li>
+                            </ul>
+                        </div>
+                        <div class="tile is-child box">
+                            <p class="title has-text-info">Two</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                        </div>
+                        <div class="tile is-child box">
+                            <p class="title has-text-info">Three</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <!--Main content-->
+            <main class="column">
+                <div class="container box">
+                    <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Category</a></li>
+                            <li class="is-active"><a href="#" aria-current="page">Aliquam erat volutpat.</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!--Article-->
+                <div class="container box">
+                    <article class="is-medium">
+                        <header class="is-spacer-bottom-1">
+                            <h2 class="title has-text-info has-text-centered is-spacer-bottom-1">Magna sed adipiscing</h2>
+                            <figure class="image is-3by2 is-spacer-bottom-1">
+                                <img src="https://picsum.photos/1080/720" alt="Magna sed adipiscing" />
+                            </figure>
+                            <time class="published" datetime="2015-11-01">November 1, 2015</time>
+                            <a href="#" class="author">Jane Doe</a>
+                        </header>
+                        <section class="content is-medium is-spacer-bottom-2">
+                            <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper.
+                                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                            <p>Nunc quis dui scelerisque, scelerisque urna ut, dapibus orci. Sed vitae condimentum lectus, ut imperdiet quam. Maecenas in justo ut nulla aliquam sodales vel at ligula. Sed blandit diam odio, sed fringilla lectus molestie sit
+                                amet. Praesent eu tortor viverra lorem mattis pulvinar feugiat in turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ullamcorper tellus sit amet mattis dignissim. Phasellus
+                                ut metus ligula. Curabitur nec leo turpis. Ut gravida purus quis erat pretium, sed pellentesque massa elementum. Fusce vestibulum porta augue, at mattis justo. Integer sed sapien fringilla, dapibus risus id, faucibus ante.
+                                Pellentesque mattis nunc sit amet tortor pellentesque, non placerat neque viverra. </p>
+                        </section>
+                        <footer>
+                            <div class="is-spacer-bottom-2">Posted in <a href="#" class="author">Category</a></div>
+                            <div class="tags is-spacer-bottom-2">
+                                <a class="tag is-link" href="#">One</a>
+                                <a class="tag is-link" href="#">Two</a>
+                                <a class="tag is-link" href="#">Three</a>
+                                <a class="tag is-link" href="#">Four</a>
+                            </div>
+                        </footer>
+                    </article>
+                </div>
+                <!--Related posts-->
+                <div class="container box">
+                    <div class="title has-text-link">Related posts:</div>
+                    <div class="columns is-12-mobile is-4-desktop is-spacer-bottom-1">
+                        <div class="column">
+                            <figure class="image is-3by2 is-spacer-bottom-half">
+                                <img src="https://picsum.photos/1080/720" alt="Lorem ipsum" />
+                            </figure>
+                            <p class="subtitle is-size-5 has-text-centered"><a href="#">Aliquam erat volutpat.</a></p>
+                        </div>
+                        <div class="column">
+                            <figure class="image is-3by2 is-spacer-bottom-half">
+                                <img src="https://picsum.photos/1080/720" alt="Lorem ipsum" />
+                            </figure>
+                            <p class="subtitle is-size-5 has-text-centered"><a href="#">Integer fringilla a nibh eget tempus.</a></p>
+                        </div>
+                        <div class="column">
+                            <figure class="image is-3by2 is-spacer-bottom-half">
+                                <img src="https://picsum.photos/1080/720" alt="Lorem ipsum" />
+                            </figure>
+                            <p class="subtitle is-size-5 has-text-centered"><a href="#">Donec interdum purus nec lectus pellentesque porta.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--Prev Next article-->
+                <div class="container box">
+                    <div class="columns">
+                        <div class="column">
+                            <p class="title is-4">Prev</p>
+                            <p class="subtitle is-5"><a href="#">Aliquam erat volutpat.</a></p>
+                        </div>
+                        <div class="column post-next">
+                            <p class="title is-4">Next</p>
+                            <p class="subtitle is-5"><a href="#">Donec interdum purus nec lectus pellentesque porta.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!--End main content-->
+        </div>
+        <!--End columns-->
+    </div>
+    <!--End container-->
+    <!--Advertise or highlited content-->
+    <div class="container is-spacer-top-3">
+        <div class="tile is-ancestor">
+            <div class="tile is-4 is-vertical is-parent">
+                <div class="tile is-child box">
+                    <p class="title has-text-info">One</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                </div>
+                <div class="tile is-child box">
+                    <p class="title has-text-info">Two</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                </div>
+            </div>
+            <div class="tile is-parent">
+                <div class="tile is-child box">
+                    <p class="title has-text-info">Three</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend,
+                        nunc dui porta orci, quis semper odio felis ut quam.</p>
+                    <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis
+                        nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
+                    <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet
+                        lacus, quis faucibus libero. Quisque non semper leo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="container is-spacer-top-3">
+        <footer class="footer box">
+            <!--Footer menu-->
+            <div class="is-spacer-bottom-3">
+                <nav class="menu-list">
+                    <ul class="footer-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms & Conditions</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--Footer Licence-->
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Bulma</strong> by <a href="#">Zoltan Abuczki</a>. The source code is licensed
+                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
