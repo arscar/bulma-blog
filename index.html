@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="https://jenil.github.io/bulmaswatch/yeti/bulmaswatch.min.css"> -->
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <!-- <link rel="stylesheet" href="css/debuger.css"> -->
@@ -19,40 +18,43 @@
         <div class="container">
             <nav class="navbar is-info" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="./">
                         <h3 class="container title has-text-white">
                             Unknown Site Name
                         </h3>
                     </a>
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="main-navbar">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
                 </div>
-                <div class="navbar-menu">
+                <div id="main-navbar" class="navbar-menu">
                     <div class="navbar-start">
-                        <a class="navbar-item">Item 1</a>
-                        <a class="navbar-item">Item 3</a>
-                        <a class="navbar-item">Item 5</a>
-                        <a class="navbar-item">Item 6</a>
+                        <a class="navbar-item" href="./">Item 1</a>
+                        <a class="navbar-item" href="./">Item 3</a>
+                        <a class="navbar-item" href="./">Item 5</a>
+                        <a class="navbar-item" href="./">Item 6</a>
                     </div>
-                    <div class="navbar-end">
+                    <div class="navbar-end  is-hidden-mobile">
                         <a class="navbar-item">
-                            <span class="icon">
-                                    <i class="fab fa-twitter"></i>
-                                  </span>
+                            <span class="icon"><i class="fab fa-twitter"></i></span>
                         </a>
                         <a class="navbar-item">
-                            <span class="icon">
-                                    <i class="fab fa-facebook"></i>
-                                  </span>
+                            <span class="icon"><i class="fab fa-facebook"></i></span>
                         </a>
                         <a class="navbar-item">
-                            <span class="icon">
-                                    <i class="fab fa-youtube"></i>
-                                  </span>
+                            <span class="icon"><i class="fab fa-youtube"></i></span>
                         </a>
                         <a class="navbar-item">
-                            <span class="icon">
-                                    <i class="fab fa-instagram"></i>
-                                  </span>
+                            <span class="icon"><i class="fab fa-instagram"></i></span>
                         </a>
+                    </div>
+                    <div class="navbar-end is-hidden-tablet">
+                        <a class="navbar-item" href="./">Twitter</a>
+                        <a class="navbar-item" href="./">Facebook</a>
+                        <a class="navbar-item" href="./">Youtube</a>
+                        <a class="navbar-item" href="./">Instagram</a>
                     </div>
                 </div>
             </nav>
@@ -71,7 +73,7 @@
             </div>
         </div>
         <!--Category navbar-->
-        <div class="container">
+        <div class="container is-hidden-mobile">
             <nav class="navbar is-info">
                 <div class="navbar-menu">
                     <div class="navbar-start">
@@ -425,6 +427,7 @@
             </div>
         </footer>
     </div>
+    <script async type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
